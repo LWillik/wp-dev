@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prod": "cd public/wp-content/plugins/wpresswire/resources/tailwind && npx tailwindcss -i ./css/app.css -o ./../../resources/css/style.css --minify",
-    "watch": "cd public/wp-content/plugins/wpresswire/resources/tailwind && npx tailwindcss -i ./css/app.css -o ./../../resources/css/style.css --watch --minify"
+    "prod": "cd public/wp-content/themes/presswire-starter/assets/tailwind && npx tailwindcss -i ./css/app.css -o ./../../style.css --minify",
+    "watch": "cd public/wp-content/themes/presswire-starter/assets/tailwind && npx tailwindcss -i ./css/app.css -o ./../../style.css --watch --minify"
   }
 }
