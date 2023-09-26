@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "vite",
     "prod": "cd public/wp-content/themes/presswire-starter/assets/tailwind && npx tailwindcss -i ./css/app.css -o ./../../style.css --minify",
-    "watch": "cd public/wp-content/themes/presswire-starter/assets/tailwind && npx tailwindcss -i ./css/app.css -o ./../../style.css --watch --minify"
+    "watch": "cd public/wp-content/themes/presswire-starter/assets/tailwind && npx tailwindcss -i ./css/app.css -o ./../../style.css --watch --minify",
+    "plugin-prod": "cd public/wp-content/plugins/wpresswire/resources/tailwind && npx tailwindcss -i ./css/app.css -o ./../css/presswire-admin-panel.css --minify",
+    "plugin-watch": "cd public/wp-content/plugins/wpresswire/resources/tailwind && npx tailwindcss -i ./css/app.css -o ./../css/presswire-admin-panel.css --watch --minify"
   }
 }
