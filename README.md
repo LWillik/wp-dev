@@ -37,3 +37,7 @@ chown -R 1000 ./
 ```bash
 cd public && docker compose run wp core download
 ```
+
+### 7. Boost WordPress performance
+
+- Add the preload.php file to the public root.
